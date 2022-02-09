@@ -2,7 +2,7 @@ lst = [22,27,16,2,18,6]
 
 # 1-Yukarıdaki listenin sort türüne göre aşamalarını yazınız.
 # Big-O gösterimini yazınız.
-# O(n)
+# O(n^2)
 # Time Complexity: Average case : Aradığımız sayının ortada olması,Worst-case aradığımız sayının sonda olması , Best-case aradığımız sayının başta olması.
 # Dizi sıralandıktan sonra 18 sayısı hangi case girer.
 # 18 degeri average-case'e girer 
