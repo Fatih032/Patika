@@ -6,7 +6,8 @@ cordova
 digital-clock-in-javascript
 Discordbot
 Kronometre
-python
+python/*
+!python/patika/
 Svg_Turkiye_Haritasi-main
 Web
 Analiz.ipynb
