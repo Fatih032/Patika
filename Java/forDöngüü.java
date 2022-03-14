@@ -1,0 +1,17 @@
+
+public class forDöngüü {
+    public static void main(String[] args) {
+        // int sum = 0;
+        // for (int i = 0, j = 0; i < 5 || j < 5; i++, j = i + 1){
+        //     sum +=i;
+        // }
+        // System.out.println(sum);
+        // int a = 1, b = 1;
+        // for ( int i = 0; i < 10; i++){
+        //     a = a+b;
+        //     b = a + b;
+        //     System.out.println(a);
+        //     System.out.println(b);
+        // }
+    }
+}
