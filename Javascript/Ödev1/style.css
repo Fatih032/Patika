@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: rgb(26, 14, 14);
+}
+.yazı{
+    color: orange;
+}
+.clock {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
