@@ -7,10 +7,11 @@ public class Armstrong {
         // 1634 = 1^4 + 6^4 + 3^4 + 4^4 = 1634 armstrong sayısıdır.
 
         int sayi, toplam = 0, üs = 0, basamak, gecici;
-        Scanner input = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Bir sayı giriniz: ");
+            sayi = input.nextInt();
+        }
 
-        System.out.println("Bir sayı giriniz: ");
-        sayi = input.nextInt();
         gecici = sayi;
 
         while(sayi != 0){

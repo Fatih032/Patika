@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class çiftSayi {
     public static void main(String[] args) {
-        // ödev
+        // 3 ve 4'e tam bölünen sayıların toplamının ortalaması
         int sayi;
-        Scanner input  = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("bir sayı giriniz:");
+            sayi = input.nextInt();
+        }
 
-        System.out.println("bir sayı giriniz:");
-        sayi = input.nextInt();
         int a = 0;
         int sum = 0;
         for (int i = 1; i<sayi;i++){
